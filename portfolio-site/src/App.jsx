@@ -8,7 +8,7 @@ import Skills from './pages/Skills';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/heopewlPortfolio">
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
